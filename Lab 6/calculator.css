@@ -1,0 +1,50 @@
+body {
+	background-color:#F36C6C;
+}
+section {
+	position: relative;
+	left: 35%;
+	top: 20%;
+	border: 10px double red;
+	width: 27%;
+	margin: 1.5em;
+	outline: 5px solid purple;
+	background-color: #F7ECBE;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-family: cursive;
+}
+
+input, label {
+	margin: 1.5em;
+}
+
+label {
+	padding: 5px;
+	border: 5px;
+	font-size: 1.2em;
+	font-family: cursive;
+}
+
+input {
+	width: 80%;
+	border: 2px solid;
+	border-radius: 15px;
+}
+section button {
+	width: 30%;
+	height: 5%;
+	border: 2px solid;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 1em;
+}
+
+#result {
+	font-family: cursive;
+	font-size: 1em;
+	margin: 2em;
+	border: 2px solid red;
+}
