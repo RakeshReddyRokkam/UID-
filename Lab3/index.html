@@ -1,0 +1,147 @@
+<DOCTYPE html>
+	<head>
+		<title>
+		   Registration Form
+		</title>
+		 <style>
+  .button {
+      border: 10px solid #fff;
+      border-radius: 20px;
+      background-color: #fff;
+  }
+
+  .form{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: courier new;
+  }
+
+  </style>
+	</head>
+	<body bgcolor="#C29999">
+		<table align=left>
+			<tr>
+				<td><img src="Amrita-logo-removebg-preview.png" width=200></td>
+			</tr>
+		</table>
+		<table align=center>
+			<tr>
+				<td> <font face="courier new" size="6" color="#000000">CYBER NATION-2022 By Amrita</font></td><td width="200"></td>
+			</tr>
+			<tr>
+				<td align=center>
+				<font face="courier new" size="6" color="#000000">[Registration Form]</font></td>
+				<td width=200>
+				</td>
+			</tr>
+		</table>
+		<form>
+			<fieldset>
+    <legend ><h2>&nbsp;&nbsp;&nbsp;Personal data&nbsp;&nbsp;&nbsp;</h2></legend>
+		<table align=center>
+			<tr>
+				<td width=100>
+					<label for="First"></label>
+					<input type="text" minlength="5" id="First" required placeholder="First Name" required />&nbsp;&nbsp;&nbsp;
+					<label for="Last"></label>
+					<input type="text" minlength="4" id="Last" required placeholder="Last Name" &nbsp; />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" width=200>
+					<label for="date"><font face="courier new" color="#000000">Date of Birth:</font></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					
+					<input type="date" id="date" required placeholder="Birth"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" width=350>
+					<label for="reg"><font face="courier new" color="#000000">Select Category which you are looking for:</font></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<select id="reg">
+						<option value="none" selected disabled hidden> Select Category</option>
+						<option value="Conference"> Students</option>
+						<option value="Conference"> Research Scholars/Faculty Members</option>
+						<option value="Conference"> Industrys/Others</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" width=300>
+					<label for="Email"><font face="courier new" color="#000000">Email:</font></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" id="Email" required placeholder="@gmail.com"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" width=300>
+					<label for="number"><font face="courier new" color="#000000">Mobile No:</font></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="int" id="number" required placeholder="+91"/>
+				</td>
+			</tr>
+			<br><br>
+			<tr>
+				<td>
+					<label>
+                       <font face="courier new" color="#000000"> Gender </font>
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Gender" width=1500><font face="courier new" color="#000000">M</font>
+                    <input type="radio" name="Gender" width=1500><font face="courier new" color="#000000">F</font>
+                    <br><br>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+            	<td width="500"><font face="courier new" color="#000000">Check Events:</font></td>
+            </tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="events" id="Inauguration">
+                    <label for="Inauguration"><font face="courier new" color="#000000">Inauguration Of ACN'22 & Cyber Conclave'22[1st OCT]</font></label>
+                    <br>
+                    <input type="checkbox" name="events" id="Cyber meet">
+                    <label for="Cyber meet"><font face="courier new" color="#000000">Cyber Industry Meet'22[8th OCT]</font></label>
+                    <br> 
+                    <input type="checkbox" name="events" id="Cyber Fest">
+                    <label for ="Cyber Fest"><font face="courier new" color="#000000">National Amrita Cyber Tech Fest 22[29th & 30th OCT]</font></label>
+                    <br>
+                    <input type="checkbox" name="events" id="Cyber Abyaan">
+                    <label for ="Cyber Abyaan"><font face="courier new" color="#000000">cyber Abyaan 22:Social Cyber awareness Drive to Schools & Rural Villages[5th-8th Nov 2022]</font></label>
+                </td>
+            </tr>
+				<br><br><br>
+		    <tr>
+		    	<td>
+		    		<label>
+                        <font face="courier new" color="#000000">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font face="courier new" color="#000000"></font>
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <textarea name="Address" rows="3" cols="40"></textarea>
+                </td>
+			</tr>
+			<br><br><br><br>
+			<tr>
+				<td>
+			    <font face="courier new" color="#000000">Those who are coming from other states check below:</font>
+		        </td>
+		    </tr>
+			<tr>
+				<td>
+					<label>
+                    <font face="courier new" color="#000000">State:</font>   
+                    </label>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="City"><br><br>
+                    <label>
+                    <font face="courier new" color="#000000">PIN Code:</font>                    
+                    </label> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="PIN"><br><br>
+                    <label>
+                    <font face="courier new" color="#000000">City: </font>   
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="City">
+                </td>
+            </tr>
+	    </table>
+	    <br><br>
+               	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               	<input type="Submit" value="Register">
+	</form>
+	<br><br><br><br><br>   
+	</body>
+</html>
